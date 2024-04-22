@@ -1,0 +1,7 @@
+media-libs/alsa-lib debug
+media-sound/pulseaudio -daemon
+media-video/pipewire X bluetooth dbus -doc echo-cancel extra ffmpeg -flatpak gstreamer -jackclient -jack-sdk -liblc3 -lv2 modemanager man readline sound-server roc
+# required by dev-libs/libayatana-appindicator-0.5.92::gentoo
+# required by media-sound/spotify-1.2.31::gentoo
+# required by media-sound/spotify (argument)
+>=dev-libs/libdbusmenu-16.04.0-r2 gtk3

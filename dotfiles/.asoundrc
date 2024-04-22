@@ -1,0 +1,13 @@
+pcm.!default {
+    type hw
+    card Generic_1
+}
+
+
+ctl.!default {
+    type hw
+    card Generic_1
+}
+
+# Add alias for card
+# pcm.!default sound_output

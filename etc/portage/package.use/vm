@@ -1,0 +1,20 @@
+app-emulation/qemu -accesibility aio alsa bpf bzip2 curl debug doc fdt gtk infiniband io-uring iscsi -jack jpeg keyutils multipath ncurses nls opengl oss pipewire plugins png -pulseaudio sdl slirp spice ssh udev usb usbredir vde vhost-net -virgl vnc vte xattr
+
+app-emulation/virt-manager gui -policykit -test
+# required by app-emulation/virt-manager-4.1.0-r1::gentoo[gui,-test]
+# required by app-emulation/virt-manager (argument)
+>=net-misc/spice-gtk-0.42-r3 usbredir
+# required by app-emulation/libvirt-9.8.0-r2::gentoo[virt-network]
+# required by app-emulation/libvirt-glib-4.0.0::gentoo
+# required by app-emulation/virt-manager-4.1.0-r1::gentoo[-test]
+# required by app-emulation/virt-manager (argument)
+>=net-dns/dnsmasq-2.90 script
+# required by app-crypt/swtpm-0.8.1-r2::gentoo
+# required by app-emulation/libvirt-9.8.0-r2::gentoo[qemu]
+# required by app-emulation/libvirt-glib-4.0.0::gentoo
+# required by app-emulation/virt-manager-4.1.0-r1::gentoo[-test]
+# required by app-emulation/virt-manager (argument)
+>=net-libs/gnutls-3.8.0 pkcs11 tools
+# required by x11-wm/awesome-4.3-r103::gentoo[test]
+# required by x11-wm/awesome (argument)
+>=x11-base/xorg-server-21.1.13 xvfb

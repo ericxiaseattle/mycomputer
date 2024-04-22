@@ -1,0 +1,2 @@
+# required by dev-libs/libpthread-stubs (argument)
+=dev-libs/libpthread-stubs-0.5 **

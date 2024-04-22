@@ -1,0 +1,2 @@
+media-tv/v4l-utils bpf dvb opengl qt5 udev
+net-wireless/bluez cups debug -deprecated doc -experimental -extra-tools mesh readline test test-programs

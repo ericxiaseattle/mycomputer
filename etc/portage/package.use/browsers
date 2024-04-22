@@ -1,0 +1,1 @@
+app-i18n/fcitx5 X autostart cairo debug -doc emoji enchant gtk3 introspection keyboard -lua nls opencc pango -presage -systemd table -test -wayland

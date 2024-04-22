@@ -1,2 +1,2 @@
 # mycomputer
-Dotfiles etc for my computer
+Dotfiles and USE flags, etc. for my Gentoo Linux computer

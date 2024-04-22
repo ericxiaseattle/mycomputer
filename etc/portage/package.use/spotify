@@ -1,0 +1,9 @@
+media-sound/spotify libnotify local-playback -pax-kernel pulseaudio
+# required by media-tv/v4l-utils-1.22.1-r1::gentoo
+# required by media-tv/v4l-utils (argument)
+>=media-libs/libv4l-1.22.1 dvb
+# required by dev-texlive/texlive-xetex-2021-r1::gentoo
+# required by dev-texlive/texlive-formatsextra-2021::gentoo
+# required by app-text/texlive-2021-r1::gentoo[extra,-xml]
+# required by app-text/texlive (argument)
+>=app-text/texlive-core-2021-r7 xetex

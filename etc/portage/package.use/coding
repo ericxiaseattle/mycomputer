@@ -1,0 +1,1 @@
+app-text/texlive X cjk -context extra -games graphics -humanities -luatex -metapost -music pdfannotextractor png -pstricks publishers science tex4ht -texi2html -truetype xetex -xml
